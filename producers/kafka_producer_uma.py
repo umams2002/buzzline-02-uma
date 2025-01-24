@@ -87,6 +87,13 @@ def generate_messages(producer, topic, interval_secs):
         logger.info("Kafka producer closed.")
 
 
+
+def get_kafka_brokers() -> str:
+    """Fetch Kafka broker addresses from environment."""
+    brokers = os.getenv("KAFKA_BROKERS", "localhost:9092")
+    logger.info(f"Kafka brokers: {brokers}")
+    return brokers
+
 #####################################
 # Main Function
 #####################################

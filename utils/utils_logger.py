@@ -12,6 +12,7 @@ Features:
 
 # Imports from Python Standard Library
 import pathlib
+import sys
 
 # Imports from external packages
 from loguru import logger
