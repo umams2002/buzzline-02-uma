@@ -82,6 +82,43 @@ Mac/Linux:
 source .venv/bin/activate
 python3 -m consumers.kafka_consumer_case
 ```
+## Task 6. Start a Custom Kafka Producer
+
+Producers generate streaming data for our topics.
+
+In VS Code, open a terminal.
+Use the commands below to activate .venv, and start the producer. 
+
+Windows:
+```shell
+.venv\Scripts\activate
+py -m producers.kafka_producer_uma
+```
+
+Mac/Linux:
+```zsh
+source .venv/bin/activate
+python3 -m producers.kafka_producer_uma
+```
+
+## Task 7. Start a Custom Kafka Consumer
+
+Consumers process data from topics or logs in real time.
+
+In VS Code, open a NEW terminal in your root project folder. 
+Use the commands below to activate .venv, and start the consumer. 
+
+Windows:
+```shell
+.venv\Scripts\activate
+py -m consumers.kafka_consumer_uma
+```
+
+Mac/Linux:
+```zsh
+source .venv/bin/activate
+python3 -m consumers.kafka_consumer_uma
+```
 
 ## Later Work Sessions
 When resuming work on this project:
