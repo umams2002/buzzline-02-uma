@@ -14678,3 +14678,56 @@ e a great day!
 2025-01-24 10:44:54.048 | ERROR    | __main__:main:101 - Error while consuming messages: cannot access local variable 'processed_count' where it is not associated with a value
 2025-01-24 10:44:54.048 | INFO     | __main__:main:104 - Kafka consumer for topic 'buzzline' closed.
 2025-01-24 10:44:54.061 | INFO     | __main__:main:106 - END consumer for topic 'buzzline' and group 'default_group'.
+2025-01-24 10:46:34.698 | INFO     | utils.utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-01-24 10:46:34.714 | INFO     | __main__:main:78 - START consumer.
+2025-01-24 10:46:34.714 | INFO     | __main__:get_kafka_topic:35 - Kafka topic: buzzline
+2025-01-24 10:46:34.714 | INFO     | __main__:get_kafka_consumer_group_id:42 - Kafka consumer group id: default_group
+2025-01-24 10:46:34.714 | INFO     | __main__:main:83 - Consumer: Topic 'buzzline' and group 'default_group'...
+2025-01-24 10:46:34.714 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-24 10:46:34.714 | INFO     | utils.utils_consumer:create_kafka_consumer:44 - Creating Kafka consumer. Topic='buzzline' and group ID='default_group'.
+2025-01-24 10:46:34.882 | INFO     | utils.utils_consumer:create_kafka_consumer:57 - Kafka consumer created successfully.
+2025-01-24 10:46:34.882 | INFO     | __main__:main:89 - Polling messages from topic 'buzzline'...
+2025-01-24 10:46:35.217 | INFO     | __main__:process_message:62 - Processing message: This is a buzz message.
+2025-01-24 10:46:35.217 | INFO     | __main__:process_message:62 - Processing message: Have a great day!
+2025-01-24 10:46:35.217 | INFO     | __main__:process_message:62 - Processing message: I love Python!
+2025-01-24 10:46:35.217 | INFO     | __main__:process_message:62 - Processing message: Kafka is awesome.
+2025-01-24 10:46:35.232 | INFO     | __main__:process_message:62 - Processing message: Streaming data is fun.
+2025-01-24 10:46:35.232 | INFO     | __main__:process_message:62 - Processing message: This is a buzz message.
+2025-01-24 10:46:35.232 | INFO     | __main__:process_message:62 - Processing message: Have a great day!
+2025-01-24 10:46:35.236 | INFO     | __main__:process_message:62 - Processing message: I love Python!
+2025-01-24 10:46:35.237 | INFO     | __main__:process_message:62 - Processing message: Kafka is awesome.
+2025-01-24 10:46:35.239 | INFO     | __main__:process_message:62 - Processing message: Streaming data is fun.
+2025-01-24 10:46:35.239 | INFO     | __main__:main:98 - Processed 10 messages so far.
+2025-01-24 10:46:35.241 | INFO     | __main__:process_message:62 - Processing message: This is a buzz message.
+2025-01-24 10:46:35.242 | INFO     | __main__:process_message:62 - Processing message: Have a great day!
+2025-01-24 10:46:35.243 | INFO     | __main__:process_message:62 - Processing message: I love Python!
+2025-01-24 10:46:35.244 | INFO     | __main__:process_message:62 - Processing message: Kafka is awesome.
+2025-01-24 10:46:35.245 | INFO     | __main__:process_message:62 - Processing message: Streaming data is fun.
+2025-01-24 10:46:35.246 | INFO     | __main__:process_message:62 - Processing message: This is a buzz message.
+2025-01-24 10:46:35.247 | INFO     | __main__:process_message:62 - Processing message: Have a great day!
+2025-01-24 10:46:35.248 | INFO     | __main__:process_message:62 - Processing message: I love Python!
+2025-01-24 10:46:35.249 | INFO     | __main__:process_message:62 - Processing message: Kafka is awesome.
+2025-01-24 10:46:35.250 | INFO     | __main__:process_message:62 - Processing message: Streaming data is fun.
+2025-01-24 10:46:35.251 | INFO     | __main__:main:98 - Processed 20 messages so far.
+2025-01-24 10:46:35.252 | INFO     | __main__:process_message:62 - Processing message: This is a buzz message.
+2025-01-24 10:46:35.255 | INFO     | __main__:process_message:62 - Processing message: Have a great day!
+2025-01-24 10:46:35.255 | INFO     | __main__:process_message:62 - Processing message: I love Python!
+2025-01-24 10:46:35.255 | INFO     | __main__:process_message:62 - Processing message: Kafka is awesome.
+2025-01-24 10:46:35.255 | INFO     | __main__:process_message:62 - Processing message: Streaming data is fun.
+2025-01-24 10:46:35.255 | INFO     | __main__:process_message:62 - Processing message: This is a buzz message.
+2025-01-24 10:46:35.255 | INFO     | __main__:process_message:62 - Processing message: Have a great day!
+2025-01-24 10:46:35.255 | INFO     | __main__:process_message:62 - Processing message: I love Python!
+2025-01-24 10:46:35.264 | INFO     | __main__:process_message:62 - Processing message: Kafka is awesome.
+2025-01-24 10:46:35.265 | INFO     | __main__:process_message:62 - Processing message: Streaming data is fun.
+2025-01-24 10:46:35.265 | INFO     | __main__:main:98 - Processed 30 messages so far.
+2025-01-24 10:46:35.265 | INFO     | __main__:process_message:62 - Processing message: This is a buzz message.
+2025-01-24 10:46:35.265 | INFO     | __main__:process_message:62 - Processing message: Have a great day!
+2025-01-24 10:46:35.265 | INFO     | __main__:process_message:62 - Processing message: I love Python!
+2025-01-24 10:46:35.265 | INFO     | __main__:process_message:62 - Processing message: Kafka is awesome.
+2025-01-24 10:46:35.265 | INFO     | __main__:process_message:62 - Processing message: Streaming data is fun.
+2025-01-24 10:46:35.265 | INFO     | __main__:process_message:62 - Processing message: This is a buzz message.
+2025-01-24 10:46:35.265 | INFO     | __main__:process_message:62 - Processing message: Have a great day!
+2025-01-24 10:46:35.265 | INFO     | __main__:process_message:62 - Processing message: I love Python!
+2025-01-24 10:46:35.265 | INFO     | __main__:process_message:62 - Processing message: Kafka is awesome.
+2025-01-24 10:46:35.265 | INFO     | __main__:process_message:62 - Processing message: Streaming data is fun.
+2025-01-24 10:46:35.265 | INFO     | __main__:main:98 - Processed 40 messages so far.
